@@ -8,5 +8,8 @@ namespace server.Models
         public string Brand { get; set; }
         public double Price { get; set; }
         public string Description { get; set; }
+
+        public int ProductInventoryId { get; set; }
+        public ProductInventory ProductInventory { get; set; }
     }
 }
